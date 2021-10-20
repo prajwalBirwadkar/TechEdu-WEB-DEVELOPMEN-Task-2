@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+
+.nav-list{
+  width: 50%;  
+  
+  display: flex;
+  align-items: center;
+  
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: red;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.rightNav {
+    
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    margin: auto;
+    height: 50%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 150%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    
+}
+.thirdHalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    margin: auto;
+    color: white;
+    
+}
+.text-big{
+font-size: 40px;
+}
+.text-small {
+font-size: 18px;
+}
+.text-medium{
+    font-size: 17px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 6px 0;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    background-color: grey;
+    
+}
+.background2
+{
+    background: rgba(0, 0, 0, 0.7) url('../bg2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.secRight{
+    height: 100vh;
+}
+.background3
+{
+    background: rgba(0, 0, 0, 0.7) url('../bg3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.secleft
+{
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  /* ==== SIMPLE FOOTER ==== */
+  
+  footer {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+    display: table;
+    width: 100vw;
+    height: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-size: .875rem;
+  }
+  
+  .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  footer small {
+    color: #ccc;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+  
+  .footer-nav a {
+    color: #c74f78;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+  }
+  
+  .footer-nav a:hover {
+    color: #f26896;
+    transition: color .15s ease-in-out;
+  }
+  
+  
